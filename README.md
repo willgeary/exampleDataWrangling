@@ -8,10 +8,11 @@ First, let's note some of the problems with data.
 
 ![img](https://i.imgur.com/beFe55r.png)
 
-Let's remove the comma and space with the `SUBSTITUTE` function, which enables us to find and replaces instances of ", ".
+Let's remove the comma and space with the `SUBSTITUTE` function.
 
 ![img](https://i.imgur.com/NYK99oH.png)
 
-becomes...
+Thus, `4, 270` becomes `4270`.
 
 ![img](https://i.imgur.com/T65QpEE.png)
+
