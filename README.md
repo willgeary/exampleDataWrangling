@@ -43,6 +43,46 @@ Finally, we can now delete the messy data columns. This leaves us with only the 
 ![img](https://i.imgur.com/Tv7QPuO.png).
 
 
-### Visualizing the data
+### Create a pivot table
 
 Now that we have clean data, we can visualize it!
+
+The first thing we will do is create a [pivot table](https://business.tutsplus.com/tutorials/how-to-use-pivot-tables-in-google-sheets--cms-28887). Pivot tables allow us to more easily ask questions of our data.
+
+Select the entire dataset and create a pivot table:
+![img](https://i.imgur.com/febm1kt.png)
+
+This will create a new tab for your pivot table. It will be blank by default.
+
+On the panel on the right-hand side of the screen, click `Rows` -> `Add field` -> `Country`. This will add all of the countries as rows in our pivot table.
+
+![img](https://i.imgur.com/yXcZuwZ.png)
+
+Next, click `Values` -> `Add field` and add each available year.
+
+Now your pivot table should be populated with data:
+
+![img](https://i.imgur.com/vn0yKG7.png)
+
+Now, we can add `filters` to filter the pivot table to show particular countries.
+
+To see the data for Australia only, click `filter` -> `Add field` -> `Country`. Then click `All items`, uncheck `Select all1 and click `Australia` and `OK`.
+
+![img](https://i.imgur.com/g1YvF4B.png)
+
+Now, the pivot table should be displaying data for Australia, only.
+
+Uncheck `Show totals` to remove the `Grand total` row.
+
+![img](https://i.imgur.com/vc4olFl.png)
+
+### Visualize the data
+
+Let's create a bar chart for Australia.
+
+Select the data and click `Insert` -> `Chart`:
+
+![img](https://i.imgur.com/g6JC9IA.png)
+
+
+
