@@ -84,5 +84,10 @@ Select the data and click `Insert` -> `Chart`:
 
 ![img](https://i.imgur.com/g6JC9IA.png)
 
+Google Sheets will create a bar chart by default:
 
+![img](https://i.imgur.com/gXBo22R.png)
 
+To explore other chart options, click the chart and click the three dots in the upper right corner of the chart. Click `Edit chart`. This will bring up the Chart editor side bar, where you can select other types of charts.
+
+![img](https://i.imgur.com/BdcFO9m.png)
